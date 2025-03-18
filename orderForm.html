@@ -8,16 +8,42 @@
 </head>
 <body>
     <h1>Order Form</h1>
-    <form action="/action_page.php" method="post">
+    <form action="/action_page.php" method="post"><!--basic means os selecting item type and quantity-->
         <section>
             <h2>Personal Information</h2>
                 <label for="firstName">First Name<input type="text" id="firstname" name="firstName" required></label>
+
                 <label for="lastName">Last Name<input type="Text" id="lastName" name="lastName" required></label>
+
                 <label for="email">Email address<input type="email" id="email" name="email" required></label>
+
+                <label for="requestedDate">Date you would like you order.(please allow at least a week for completion.)
+                    <input type="date" id="date" name="date" required>
+                    
+                </label>
         </section>
         <section>
             <h2>Items to order</h2>
-            
+                <input type="checkbox" name="option" value="strawberryCupcake">Strawberry Creamcheese Cupcake
+                <input type="number" name="quantity_strawbeeryCupcake" min="1"  max="12" value="1">
+
+                <input type="checkbox" name="option" value="chocolateCarmelCupcake">Chocolate Carmel Cupcake
+                <input type="number" name="quantity_chocolateCarmelCupcake" min="1" max="12" value="1">
+
+                <input type="checkbox" name="option" value="chocolateMintCupcake">Chocolate Mint Cupcake
+                <input type="number" name="quantity_chocolateMintCupcake" min="1" max="12" value="1">
+
+                <input type="checkbox" name="option" value="chocolateChipCookies">Chocolate Chip Cookies
+                <input type="number" name="quantity_chocolateChipCookies" min="1" max="12" value="1">
+
+                <input type="checkbox" name="option" value="strawberryCookies">Strawberry Creamcheese Cookies
+                <input type="number" name="quantity_strawberryCookies" min="1" max="12" value="1">
+
+                <input type="checkbox" name="option" value="ChocolateCarmelCookies">Chocolate Carmel Cookies
+                <input type="number" name="quantity_chocolateCarmelCookies" min="1" max="12" value="1">
+
+                <button type="submit">Submit</button>
+  
         </section>
     </form>
     <a href="Main.html">Back to main page</a><!--Link to main page-->
