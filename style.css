@@ -4,15 +4,13 @@ body {
     text-align: center;
     background-color: deeppink;
     color:white;
-    padding: 100px;
-    margin: 20px;
     display:flexbox;}
 
 img {
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width: 50%;
+    width: 25%;
 
 }
 
@@ -21,3 +19,5 @@ input[type=text],[type=email],[type=number],[type=date]{
     background-color: white;
     color:black;
 }
+
+dl{display: flex;}
