@@ -1,18 +1,14 @@
 @import url("./reset.css");
 body {
     font-family: cursive;
+    font-size: 2em;
     text-align: center;
     background-color: deeppink;
     color:white;
     display:flexbox;}
 
-img {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width: 25%;
-
-}
+img {width:20%;}
+    
 
 input[type=text],[type=email],[type=number],[type=date]{
     margin: 20px;
@@ -20,5 +16,8 @@ input[type=text],[type=email],[type=number],[type=date]{
     color:black;
 }
 
-dl{display: flex;}
+dl{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;}
 
