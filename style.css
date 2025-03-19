@@ -5,7 +5,8 @@ body {
     text-align: center;
     background-color: deeppink;
     color:white;
-    display:flexbox;}
+    display:flexbox;
+    }
 
 img {width:20%;}
     
@@ -16,8 +17,9 @@ input[type=text],[type=email],[type=number],[type=date]{
     color:black;
 }
 
-dl{display: flex;
-    flex-direction: row;
+dl {display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;}
 
+h1,h2,article,dl{padding: 1em;}
