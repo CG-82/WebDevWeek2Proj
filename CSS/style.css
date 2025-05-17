@@ -1,12 +1,13 @@
-@import url("./reset.css");
+@import url("reset.css");
 body {
     font-family: cursive;
     font-size: 2em;
     text-align: center;
-    background-color: deeppink;
+    background: deeppink;
     color:white;
-    display:flexbox;
-    }
+    display:flex;
+
+}
 
 img {width:20%;}
     
