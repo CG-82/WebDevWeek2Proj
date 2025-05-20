@@ -3,20 +3,17 @@ body {
     font-family: cursive;
     font-size: 2em;
     text-align: center;
-    background: deeppink;
+    background: linear-gradient(45deg, purple, deeppink);
     color: white;
-
 
     .header-img {
         width: 100%;
         height: auto;
     }
 
-
     img {
         width: 20%;
     }
-
 
     input[type=text], [type=email], [type=number], [type=date] {
         margin: 20px;
@@ -24,5 +21,16 @@ body {
         color: black;
     }
 
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
 
+    h1,h2,h3 {
+        margin: 20px;
+    }
 }
